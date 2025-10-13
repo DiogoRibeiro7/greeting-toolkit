@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "greeting-toolkit"
-version = "0.4.16"
+version = "0.4.17"
 description = "A short description of the package."
 authors = ["Diogo Ribeiro <dfr@esmad.ipp.pt>"]
 license = "MIT"
