@@ -31,7 +31,7 @@ jobs:
           bandit -r src/ -c pyproject.toml -f json -o bandit-results.json
 
       - name: Upload bandit results
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: bandit-results
           path: bandit-results.json
